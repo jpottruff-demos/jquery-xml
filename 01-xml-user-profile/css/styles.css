@@ -1,0 +1,107 @@
+html {
+  background-color: #323330;
+  color: #FFFFFF;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+
+#home, #cityInfo {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+button {
+  border: none;
+  padding: .2em .4em;
+  border-radius: 10px;
+  background-color: #F0D04F;
+  box-shadow:  -.19em .19em #000000;
+  outline: none;
+
+  font-size: 1em;
+  font-weight: bold;
+}
+
+button:hover {
+  border: 2px solid white;
+  box-shadow:  -.19em .19em #F0D04F;
+
+  background-color: #171717;
+  color: #F0D04F;
+}
+
+button:active {
+  box-shadow:  -.08em .08em #F0D04F;
+  transform: translateY(4px);
+}
+
+button:disabled {
+  box-shadow: none;
+  pointer-events: none;
+}
+
+.profile {
+  margin-top: 1em;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.main-info {
+  padding-top: 1.5em;
+  flex: 1 .5 30%;
+  display: flex;
+  flex-direction: column;
+  order: 2;
+}
+
+label {
+  margin: 2px 0;
+  font-weight: bold;
+}
+
+span {
+  margin-left: 1em;
+  padding: .1em 0;
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+.profilePicture, .cityPicture {
+  border: 1px solid black;
+  width: 10px;
+  flex: 1 2 60%;
+  order: 1;
+
+  display: flex;
+}
+
+img {
+  border-radius: 50%;
+  margin: 0 16px;
+  max-width: 400px;
+
+  flex-shrink: 5;
+}
+
+.favoriteCities {
+  flex-basis: 100%;
+  order: 99;
+}
+
+ul { list-style-type: none; }
+
+ul li { display: inline; }
+
+.cityButton { margin: 10px; }
+
+a {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 2em;
+}

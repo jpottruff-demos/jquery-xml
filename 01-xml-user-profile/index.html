@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Favorite Cities</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <!-- HOME PAGE -->
+      <div id="home">
+        <h1>User Information</h1>
+        <button type="button" id="displayInfo" >Show Profile</button>
+
+        <div class="profile">
+          <div class="main-info">
+            <label>Name: </label>
+            <span id="studentName"></span>
+            <label>Program:</label>
+            <span id="studentProgram"></span>
+            <label>Campus:</label>
+            <span id="studentCampus"></span>
+          </div>
+          <div id="profilePicture"></div>
+          <div class="favoriteCities">
+            <h4>Favorite Cities:</h4>
+            <ul id="cityList">
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- CITY PAGE -->
+      <div id="cityInfo">
+        <h1 id="selectedCity"></h1>
+        <a href="index.html">HOME</a>
+
+        <div class="profile">
+          <div class="main-info">
+            <label>City: </label>
+            <span id="city"></span>
+            <label>Country:</label>
+            <span id="country"></span>
+            <label>Province:</label>
+            <span id="province"></span>
+            <label>Latitude:</label>
+            <span id="lat"></span>
+            <label>Longitude:</label>
+            <span id="long"></span>
+          </div>
+
+          <div id="cityPicture"></div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

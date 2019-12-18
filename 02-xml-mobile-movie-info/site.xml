@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<pottrufj>
+  <siteTitle>Mobile Movie App</siteTitle>
+  <studentName program="Software Developmeent and Network Engineering" studentNumber="991038577">Jeff Pottruff</studentName>
+  <movie image="images/nightOfTheCreeps.jpg">
+    <title>Night of the Creeps</title>
+    <plot>Alien brain parasites, entering humans through the mouth, turn their host into a killing zombie. Some teenagers start to fight against them.</plot>
+    <castList>
+      <actor>Jason Lively</actor>
+      <actor>Jill Whitlow</actor>
+      <actor>Tom Atkins</actor>
+    </castList>
+    <reviews>
+      <review>(7/10) What's not to like about alien leeches that attack the brain and turn people into zombies?</review>
+      <review>(3/10) I remember sort of loving it when I was twelve, meaning only that twelve-year-olds are idiots.</review>
+      <review>(N/A) This is a terrific B-movie, full of genre love and filled with tributes to Dekker's horror movie heroes...</review>
+    </reviews>
+    <links>
+      <link source="imdb">https://www.imdb.com/title/tt0091630/</link>
+      <link source="rottenTomatoes">https://www.rottentomatoes.com/m/night_of_the_creeps/</link>
+    </links>
+  </movie>
+  <movie image="images/bigTrouble.jpg">
+    <title>Big Trouble In Little China</title>
+    <plot>A rough-and-tumble trucker helps rescue his friend's fiance from an ancient sorcerer in a supernatural battle beneath Chinatown.</plot>
+    <castList>
+      <actor>Kurt Russell</actor>
+      <actor>Kim Cattrall</actor>
+      <actor>Dennis Dun</actor>
+    </castList>
+    <reviews>
+      <review>(8/10) This is a bizarre, fun, action packed film, filled with wild characters and an adventurous, imaginative and campy spirit.</review>
+      <review>(8/10) Imperfect, yes...but still great cultish fun with Kurt Russell.</review>
+      <review>(6/10) An upscale send-up.</review>
+    </reviews>
+    <links>
+      <link source="imdb">https://www.imdb.com/title/tt0090728/</link>
+      <link source="rottenTomatoes">https://www.rottentomatoes.com/m/big_trouble_in_little_china/</link>
+    </links>
+  </movie>
+  <movie image="images/trollHunter.jpg">
+    <title>Troll Hunter</title>
+    <plot>A group of students investigates a series of mysterious bear killings, but learns that there are much more dangerous things going on. They start to follow a mysterious hunter, learning that he is actually a troll hunter.</plot>
+    <castList>
+      <actor>Glenn Erland Trosterud</actor>
+      <actor>Tomas Alf Larsen</actor>
+      <actor>Johanna Mørch</actor>
+    </castList>
+    <reviews>
+      <review>(7/10) A leisurely, shambling, deadpan movie about a man who finds trolls and kills them. That's enough.</review>
+      <review>(N/A) The film is shot with handheld cameras in the standard mockumentary style, but the content is often hilarious, especially when the trolls show up.</review>
+      <review>(7/10) TrollHunter is both creepy and funny, a clever combination for this sly monster movie.</review>
+    </reviews>
+    <links>
+      <link source="imdb">https://www.imdb.com/title/tt1740707/</link>
+      <link source="rottenTomatoes">https://www.rottentomatoes.com/m/trollhunter/</link>
+    </links>
+  </movie>
+</pottrufj>

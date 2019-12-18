@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<pottrufj>
+	<student studentNumber="999999999">
+		<studentName>Jeff Pottruff</studentName>
+		<studentProg>Software Development and Network Engineering</studentProg>
+		<studentCampus>Oakville</studentCampus>
+		<image>images/me.jpg</image>
+		<city lat="43.65" long="79.38">
+			<name>Toronto</name>
+			<country>Canada</country>
+			<province>Ontario</province>
+			<image>images/toronto.jpg</image>
+		</city>
+		<city lat="64.13" long="21.82">
+			<name>Reykjavik</name>
+			<country>Iceland</country>
+			<province>n/a</province>
+			<image>images/reykjavik.jpg</image>
+		</city>
+		<city lat="13.76" long="100.50">
+			<name>Bangkok</name>
+			<country>Thailand</country>
+			<province>n/a</province>
+			<image>images/bangkok.jpg</image>
+		</city>
+	</student>
+</pottrufj>

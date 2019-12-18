@@ -1,0 +1,7 @@
+.center {
+  text-align: center;
+}
+
+#moviePoster img{
+  max-height: 250px;
+}
